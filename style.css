@@ -1,89 +1,90 @@
-body, html {
-	color: white;
+body {
+	color: rgb(245, 245, 220);
 	font-family: 'anton', sans-serif;
 	height: 100%;
 	margin: 0;
+	background-color: rgb(35, 35, 63);
 }
 
-.fullwidth {
-    height: 100%;
-    position: relative;
-    width: 100%;
-}
+/********************
+*** LEFT SIDE
+*********************/
 
-.bgimg-left {
-    background-color: salmon;
-    height: 100%; 
-    left: 0;
+.left-side {
+	background-color: rgb(35, 35, 63);
+	height: 100%;
 	position: absolute;
-    width: 50%;
- }
+	width: 50%;
+}
 
-.bgimg-right {
-    background-image: url("../Img/aia.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    height: 100%;
-    position: absolute;
-    right: 0;
-    width: 50%;
+#name {
+	opacity: 0.3;
+	text-transform: uppercase;
+	font-size: 80px;
+	text-shadow: 5px 10px 30px #888888;
+}
+
+hr {
+	background-image: url('../Img/hrstars.png');
+	border: none;
+	height: 20px;
+	left: 50px;
+	position: relative;
+	width: 60%;
+	margin: 10px;
 }
 
 .info {
-    font-size: 20px;
+	font-size: 22px;
 	left: 100px;
-    position: absolute;
-    top: 10px;
-    width: 500px;
- }
-
-#name {
-	opacity: 0.5;
-	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	width: 500px;
 }
 
-
-hr {
-	background-image: url('../img/hrstars.png');
-	border: none;
-	height: 20px;
-	width: 60%;
+.info p {
+	font-size: 28px;
 }
 
-.knowmore {
-	font-family: 'Arial', Helvetica, sans-serif;
-	font-size: 14px;
+/********************
+*** RIGHT SIDE
+*********************/
+
+.right-side {
+	background-image: url("../Img/aia.jpg");
+	background-size: cover;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	width: 50%;
 }
 
-.knowmore span {
-	font-family: 'Lobster', cursive;
+/********************
+*** MIDLLE
+*********************/
+
+.contact {
+	position: absolute;
+	left: 44%;
+	width: 140px;
 }
 
-.knowmore a {
-	color: white;
-	text-decoration: none;
-}
-
-.navigation {
-    float: right;
-	height: 100px;
-    width: 200px;
-}
-
-.navigation img {
-    max-height: 25%;
-	max-width: 25%;
-}
-
-.navigation h2 {
-	border-bottom: 1px solid black;
-	border-top: 1px solid black ;
-	color: black;
-	font-size: 25px;
-	text-align: center;
-	width: 100px;
-}
-
-.navigation ul {
+.contact ul {
 	list-style-type: none;
+	text-align: center;
+}
+
+.button {
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-radius: 50%;
+	background-color: rgb(245, 245, 220);
+	border: none;
+	color: rgb(35, 35, 63);
+	padding: 10px;
+	font-size: 12px;
+	margin: 3px;
+	cursor: pointer;
+	box-shadow: 5px 10px 25px #888888;
+	width: 70px;
+	height: 70px;
 }
