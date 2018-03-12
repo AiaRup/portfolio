@@ -25,7 +25,7 @@ body {
 }
 
 hr {
-	background-image: url('../Img/hrstars.png');
+	background-image: url('Img/hrstars.png');
 	border: none;
 	height: 20px;
 	left: 50px;
@@ -51,7 +51,7 @@ hr {
 *********************/
 
 .right-side {
-	background-image: url("../Img/aia.jpg");
+	background-image: url("Img/aia.jpg");
 	background-size: cover;
 	height: 100%;
 	position: absolute;
