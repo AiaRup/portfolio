@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/AiaRup/portfolio#readme",
   "dependencies": {
+    "express": "^4.16.3",
     "jquery": "^3.3.1"
   }
 }
